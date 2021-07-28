@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Leighton Grantham',
   name: '',
   subtitle: '',
   cta: '',
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'leightongrantham@outlook.com',
 };
 
 // FOOTER DATA
@@ -78,7 +78,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/leightongrantham/',
     },
     {
       id: nanoid(),

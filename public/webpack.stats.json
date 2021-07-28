@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "warnings": [],
+  "namedChunkGroups": {
+    "polyfill": {
+      "chunks": ["polyfill"],
+      "assets": ["polyfill.js", "polyfill.js.map"],
+      "children": {},
+      "childAssets": {}
+    },
+    "commons": {
+      "chunks": ["commons"],
+      "assets": [
+        "commons.css",
+        "commons.js",
+        "commons.7d59ed5bd197e09eda73.hot-update.js",
+        "commons.css.map",
+        "commons.js.map",
+        "commons.7d59ed5bd197e09eda73.hot-update.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "assetsByChunkName": {
+    "polyfill": ["polyfill.js"],
+    "commons": [
+      "commons.css",
+      "commons.js",
+      "commons.7d59ed5bd197e09eda73.hot-update.js"
+    ]
+  }
+}
