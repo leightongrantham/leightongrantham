@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Leighton Grantham | Welcome', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -18,10 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'B2C5AE14-E040-4AE2-9B81-B2E51805C638.JPG',
-  paragraphOne: 'Hello :)',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Hello!',
+  paragraphTwo: 'I am currently a Manchester based developer working across the full stack, ' +
+      'working extensively on a SaaS platform as part of my companies journey. My knowledge varies from Angular & Typescript, Node, Redux and Sass to AWS, Terraform and Jenkins.',
+  paragraphThree: 'In my own time I like to work on React sites, experimenting with its ecosystem...I am currently enjoying working with GatsbyJS with Netlify in particular.',
+  resume: '/src/images/Leighton_Grantham_-_Front_End_Software_Developer (2).pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -35,24 +36,6 @@ export const projectsData = [
     url: 'https://sweetvibrationsradio.com',
     repo: '', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
 ];
 
 // CONTACT DATA
@@ -67,13 +50,8 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/leightongrantham',
     },
     {
       id: nanoid(),
@@ -83,7 +61,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/leightongrantham',
     },
   ],
 };
