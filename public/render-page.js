@@ -52013,7 +52013,7 @@ const Header = () => {
     distance: "30px"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "hero-title"
-  }, title || 'I am', ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, title || '', ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "text-color-main"
   }, name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), subtitle || "")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default.a, {
     left: isDesktop,
@@ -52414,7 +52414,7 @@ const headData = {
 
 const heroData = {
   title: '',
-  name: 'Leighton Grantham',
+  name: 'LEIGHTON GRANTHAM',
   subtitle: '',
   cta: ''
 }; // ABOUT DATA
