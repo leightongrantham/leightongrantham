@@ -13,10 +13,10 @@
       "assets": [
         "commons.css",
         "commons.js",
-        "commons.ac7b0396ed460630a587.hot-update.js",
+        "commons.5890c222c5e295116633.hot-update.js",
         "commons.css.map",
         "commons.js.map",
-        "commons.ac7b0396ed460630a587.hot-update.js.map"
+        "commons.5890c222c5e295116633.hot-update.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -27,7 +27,7 @@
     "commons": [
       "commons.css",
       "commons.js",
-      "commons.ac7b0396ed460630a587.hot-update.js"
+      "commons.5890c222c5e295116633.hot-update.js"
     ]
   }
 }

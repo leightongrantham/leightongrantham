@@ -11,11 +11,10 @@ const Contact = () => {
   return (
     <section id="contact">
       <Container>
-        <Title title="Contact" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              {cta || 'Got something to discuss?'}
+              {cta || ''}
             </p>
             <a
               target="_blank"
@@ -23,7 +22,7 @@ const Contact = () => {
               className="cta-btn cta-btn--resume"
               href={ `mailto:${ email }` }
             >
-              {btn || "Let's Talk"}
+              {btn || "Get in contact"}
             </a>
           </div>
         </Fade>

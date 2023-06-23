@@ -44,8 +44,7 @@ const Projects = () => {
                       <h3 className="project-wrapper__text-title">{ title }</h3>
                       <div>
                         <p>
-                          {info ||
-                            'Website for a hip hop based radio station. Simple Mixlr & Soundcloud integration, with a contact page. Made using React, Netlify and custom CSS. '}
+                          {info}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>

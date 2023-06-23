@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'B2C5AE14-E040-4AE2-9B81-B2E51805C638.JPG',
-  paragraphOne: 'Hello!',
-  paragraphTwo: 'I am currently a Manchester based developer working across the full stack, ' +
-      'working extensively on a SaaS platform as part of my companies journey. My knowledge varies from Angular & Typescript, Node, Redux and Sass to AWS, Terraform and Jenkins.',
-  paragraphThree: 'In my own time I like to work on React sites, experimenting with its ecosystem...I am currently enjoying working with GatsbyJS with Netlify in particular.',
+  paragraphOne: '',
+  paragraphTwo: 'Manchester based developer with experience across the full stack. Currently focusing on ReactJs & Contentful - with other knowledge in Angular, AWS, Terraform and more.' +
+      '',
+  paragraphThree: 'Currently available for commission work.',
   resume: '/src/images/Leighton_Grantham_-_Front_End_Software_Developer (2).pdf', // if no resume, the button will not show up
 };
 
@@ -31,9 +31,16 @@ export const projectsData = [
     id: nanoid(),
     img: 'svr.png',
     title: 'Sweet Vibrations Radio',
-    info: '',
-    info2: '',
+    info: 'Website for Manchester based radio.',
     url: 'https://sweetvibrationsradio.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'slb.png',
+    title: 'Saló Boat Service',
+    info: 'Website for Italian based boat company.',
+    url: 'https://saloboatservice.com',
     repo: '', // if no repo, the button will not show up
   },
 ];
@@ -42,7 +49,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'leightongrantham@outlook.com',
+  email: 'hello@leightongrantham.com',
 };
 
 // FOOTER DATA
